@@ -1,0 +1,45 @@
+---
+# ==============================================================================
+# Prettier-style formatting
+# ==============================================================================
+
+AccessModifierOffset: -2
+AlignAfterOpenBracket: BlockIndent
+AlignEscapedNewlines: DontAlign
+AlignOperands: DontAlign
+AllowAllArgumentsOnNextLine: false
+AllowAllParametersOfDeclarationOnNextLine: false
+AllowShortBlocksOnASingleLine: Never
+AllowShortEnumsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: Empty
+# If arguments/parameters must wrap, then they each go on a new line
+BinPackArguments: false
+BinPackParameters: false
+BreakBeforeBinaryOperators: None
+BreakBeforeTernaryOperators: true
+ColumnLimit: 100
+ContinuationIndentWidth: 4
+Cpp11BracedListStyle: true
+IndentCaseLabels: true
+IndentWidth: 4
+InsertNewlineAtEOF: true
+NamespaceIndentation: All
+PenaltyReturnTypeOnItsOwnLine: 1000
+UseTab: Never
+
+# ==============================================================================
+# Personal preferences and convenience settings
+# ==============================================================================
+
+FixNamespaceComments: false
+IncludeBlocks: Regroup
+IncludeCategories:
+  - Regex: ^".*"$
+    Priority: 1
+  - Regex: ^<.*\.h>$
+    Priority: 2
+  - Regex: ^<.*>$
+    Priority: 3
+# Consider "*" part of the type and prefer to keep it with the type name
+PointerAlignment: Left
+SortIncludes: CaseInsensitive

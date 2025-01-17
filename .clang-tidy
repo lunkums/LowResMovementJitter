@@ -1,0 +1,13 @@
+---
+Checks:
+  - -*,
+  - bugprone-*,
+  - clang-analyzer-*
+  - cppcoreguidelines-*,
+  - llvm-*,
+  - modernize-*,
+  - performance-*,
+  # Exceptions
+  - -cppcoreguidelines-avoid-magic-numbers,
+  - -llvm-namespace-comment,
+WarningsAsErrors: "*"

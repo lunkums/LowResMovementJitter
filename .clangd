@@ -1,0 +1,5 @@
+Diagnostics:
+  ClangTidy:
+    FastCheckFilter: None
+InlayHints:
+  Designators: true
