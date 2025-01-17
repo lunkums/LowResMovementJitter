@@ -9,7 +9,7 @@ struct Vec2 {
 };
 
 struct Player {
-    float speed{2.3829};
+    float speed{1.3829};
 
     float vel_x{0};
     float vel_y{0};
